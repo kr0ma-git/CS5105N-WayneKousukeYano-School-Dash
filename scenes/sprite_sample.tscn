@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://b11p7bhfdldf0"]
+
+[ext_resource type="Texture2D" uid="uid://cygq3hlobl72n" path="res://assets/tiles/apple_red_01.png" id="1_ypj5y"]
+
+[node name="SpriteSample" type="Node2D" unique_id=257600585]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1758828186]
+scale = Vector2(1.613, 1.613)
+texture = ExtResource("1_ypj5y")

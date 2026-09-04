@@ -3,9 +3,11 @@
 /android/
 
 # Ignore custom build export directories
+/export/
 /exports/
 /builds/
 *.exe
 *.apk
 *.ipa
 *.app/
+*.tmp

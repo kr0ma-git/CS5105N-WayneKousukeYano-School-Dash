@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://tgddqexo14um"]
+
+[ext_resource type="PackedScene" uid="uid://b11p7bhfdldf0" path="res://scenes/sprite_sample.tscn" id="1_yqjtg"]
+[ext_resource type="Script" uid="uid://dj17332xgs1ni" path="res://scripts/sprite_sample.gd" id="2_lnu2h"]
+
+[node name="Game" type="Node2D" unique_id=1511766161]
+
+[node name="SpriteSample" parent="." unique_id=257600585 instance=ExtResource("1_yqjtg")]
+position = Vector2(583, 299)
+script = ExtResource("2_lnu2h")
+
+[node name="Button" type="Button" parent="." unique_id=1951519619]
+offset_left = 76.0
+offset_top = 35.0
+offset_right = 277.0
+offset_bottom = 119.0
+text = "Toggle Sprite Signal"
+
+[connection signal="pressed" from="Button" to="SpriteSample" method="_on_button_pressed"]
