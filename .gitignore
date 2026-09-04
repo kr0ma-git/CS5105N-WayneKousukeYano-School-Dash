@@ -1,0 +1,11 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Ignore custom build export directories
+/exports/
+/builds/
+*.exe
+*.apk
+*.ipa
+*.app/
